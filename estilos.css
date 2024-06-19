@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-image: url(FONDO2.jpg);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    margin: 5%;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.529);
+    border-radius: 50px;
+    width: 100%;
+    height: 356px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+    
+}
+
+
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: medium;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 60%;
+    color: black;
+}
+
+h2, h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.d {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 2;
+    font-size: 10px;
+    margin-top: -60px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    justify-content: right;
+}
+
+#boton {
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: white;
+    background-color: #0008ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+#boton:hover {
+    background-color: #00cc14;
+}
+
+#slide {
+    width: 1400px;
+    height: 77px;
+    background-image: url(steprecortada.png);
+    background-size: 1400px 1400px;
+    animation: scroll 2s steps(12) infinite;
+}
+
+@keyframes scroll {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: 0px 1400px;
+    }
+}
+
+main {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80vh;
+    margin: 10px;
+}
+
+div {
+    width: 30%;
+    padding: 20px; 
+    color: white; 
+}
+
+#video1 {
+    width: 90%;
+    margin: auto;
+
+
+}
+
+
+img, video {
+    width: 100%;
+}
